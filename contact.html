@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact Us - Legal Company</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="icons8-legal-64.png">
+</head>
+<body onload="document.body.style.opacity = 1;">
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Our services</a></li>
+        <li class="active"><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Please fill out the form below and we'll get back to you as soon as possible.</p>
+      </div>
+    </section>
+
+    <section id="contact-form">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <form>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact-info">
+      <div class="container">
+        <h2>Contact Information</h2>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>123 Main Street<br>Kiev, Ukraine 12345</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <p>(555) 555-5555</p>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <p>info@legalcompany.com</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+      <p>&copy; 2023 Legal Company. Khoronenko Anton.</p>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/your_font_awesome_kit.js" crossorigin="anonymous"></script>
+</body>
+</html>
